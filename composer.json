@@ -136,7 +136,9 @@
             "dealerdirect/phpcodesniffer-composer-installer": true,
             "drupal/core-composer-scaffold": true,
             "ergebnis/composer-normalize": true,
-            "oomphinc/composer-installers-extender": true
+            "oomphinc/composer-installers-extender": true,
+            "acquia/blt": true,
+            "acquia/blt-phpcs": true
         },
         "platform": {
             "php": "7.4"
