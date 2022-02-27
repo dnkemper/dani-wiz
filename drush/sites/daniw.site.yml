@@ -1,0 +1,48 @@
+# Application 'daniw', environment 'dev'.
+dev:
+  root: /var/www/html/daniw.dev/docroot
+  ac-site: daniw
+  ac-env: dev
+  ac-realm: devcloud
+  uri: daniwjb6kgznrxf.devcloud.acquia-sites.com
+  dev.livedev:
+    parent: '@daniw.dev'
+    root: /mnt/gfs/daniw.dev/livedev/docroot
+  host: daniwjb6kgznrxf.ssh.devcloud.acquia-sites.com
+  user: daniw.dev
+  paths:
+    drush-script: drush9
+
+
+# Application 'daniw', environment 'prod'.
+prod:
+  root: /var/www/html/daniw.prod/docroot
+  ac-site: daniw
+  ac-env: prod
+  ac-realm: devcloud
+  uri: daniwnxemgshl2x.devcloud.acquia-sites.com
+  prod.livedev:
+    parent: '@daniw.prod'
+    root: /mnt/gfs/daniw.prod/livedev/docroot
+  host: daniwnxemgshl2x.ssh.devcloud.acquia-sites.com
+  user: daniw.prod
+  paths:
+    drush-script: drush9
+
+
+# Application 'daniw', environment 'test'.
+test:
+  root: /var/www/html/daniw.test/docroot
+  ac-site: daniw
+  ac-env: test
+  ac-realm: devcloud
+  uri: daniwctldlzf6nu.devcloud.acquia-sites.com
+  test.livedev:
+    parent: '@daniw.test'
+    root: /mnt/gfs/daniw.test/livedev/docroot
+  host: daniwctldlzf6nu.ssh.devcloud.acquia-sites.com
+  user: daniw.test
+  paths:
+    drush-script: drush9
+
+
