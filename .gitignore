@@ -111,3 +111,6 @@ local.site.yml
 local.services.yml
 *.local
 local.blt.yml
+deployment_identifier
+/travis_wait*
+/files-private
