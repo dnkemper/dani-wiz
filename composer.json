@@ -115,7 +115,6 @@
         "drupal/workbench_email": "^2.2",
         "drush/drush": "^10.6 || ^11",
         "kartsims/easysvg": "^2.4",
-        "leaflet/leaflet": "^1.4",
         "npm-asset/fontawesome-iconpicker": "^3.2",
         "npm-asset/jquery-collapse": "^1.1",
         "npm-asset/leaflet": "^1.7",
