@@ -1,2 +1,6 @@
 project:
   machine_name: drupal
+git:
+  default_branch: master
+  remotes:
+    cloud: 'daniw@svn-2625.devcloud.hosting.acquia.com:daniw.git'
